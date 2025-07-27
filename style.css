@@ -92,7 +92,8 @@ padding-top: 40px;
 .obl
 {
     background-image: url(viktoriakrutishka.png);
-    min-height: 850px;
+    background-position: center;
+    margin-bottom: 40px;
     background-repeat: no-repeat;
     font-family: monospace;
     font-weight: lighter;
@@ -217,6 +218,7 @@ font-weight: lighter;
 }
 .text-holder h1, p {
     color: white;
+    margin-top: 30px;
 	margin-bottom: clamp(.5rem, 2%, 1rem);
 	transition: transform .4s ease-in-out, opacity .4s ease-in-out;
 }
